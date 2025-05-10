@@ -181,7 +181,7 @@
         compatible = "zmk,keymap";
 
         Base {
-            display-name = "Win";
+            display-name = "Windows";
             bindings = <
   &kp Q       &kp W           &kp E        &kp R         &kp T         &kp Y        &kp U         &kp I        &kp O       &kp P
   &ht LGUI A  &ht LEFT_ALT S  &ht LCTRL D  &ht LSHIFT F  &kp G         &kp H        &ht RSHIFT J  &ht RCTRL K  &ht LALT L  &ht LGUI SEMI
@@ -191,7 +191,7 @@
         };
 
         Mac_Base {
-            display-name = "Mac";
+            display-name = "MacOS";
             bindings = <
   &kp Q       &kp W           &kp E        &kp R         &kp T         &kp Y        &kp U         &kp I        &kp O       &kp P
   &ht LGUI A  &ht LEFT_ALT S  &ht LCTRL D  &ht LSHIFT F  &kp G         &kp H        &ht RSHIFT J  &ht RCTRL K  &ht LALT L  &ht LGUI SEMI
@@ -201,7 +201,7 @@
         };
 
         Numpad {
-            display-name = "Numbers";
+            display-name = "Num";
             bindings = <
   &kp ESC   &none     &kp LC(LA(F1))  &kp LA(LS(F))  &kp LPAR        &kp RPAR     &kp N7       &kp N8  &kp N9  &kp N0
   &kp LGUI  &kp LALT  &ht LGUI D      &kp LSHFT      &kp KP_PLUS     &kp DOT      &kp N4       &kp N5  &kp N6  &kp SEMI
@@ -211,7 +211,7 @@
         };
 
         Mac_Numpad {
-            display-name = "Numbers";
+            display-name = "Num";
             bindings = <
   &kp ESC   &none     &none      &none      &kp LPAR        &kp RPAR     &kp N7       &kp N8  &kp N9  &kp N0
   &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &kp KP_PLUS     &kp DOT      &kp N4       &kp N5  &kp N6  &kp SEMI
@@ -221,7 +221,7 @@
         };
 
         Symbols {
-            display-name = "Symbols";
+            display-name = "Sym";
             bindings = <
   &kp EXCL    &kp AT     &kp HASH   &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR
   &kp RA(N1)  &kp TILDE  &kp MINUS  &kp PLUS    &kp PIPE       &kp GRAVE  &kp DQT    &kp SQT    &kp LBRC  &kp RBRC
@@ -231,7 +231,7 @@
         };
 
         Navigation {
-            display-name = "Navigation";
+            display-name = "Navi";
             bindings = <
   &kp RA(SEMI)     &kp RA(GRAVE)  &kp RA(SQT)  &kp RA(NUMBER_6)       &kp RS(RA(SQT))    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &none
   &kp LGUI         &kp LALT       &kp LCTRL    &kp LSHFT              &kp RA(N1)         &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none
@@ -241,7 +241,7 @@
         };
 
         FKeys {
-            display-name = "Functions";
+            display-name = "Func";
             bindings = <
   &kp LG(Q)  &kp LG(W)  &none      &none      &kp F12          &none   &kp F7  &kp F8  &kp F9  &kp F10
   &kp LGUI   &kp LALT   &kp LCTRL  &kp LSHFT  &kp LA(LEFT)     &none   &kp F4  &kp F5  &kp F6  &kp F11
@@ -251,7 +251,7 @@
         };
 
         Mac_FKeys {
-            display-name = "Functions";
+            display-name = "Func";
             bindings = <
   &kp LG(Q)  &kp LG(W)  &none      &none      &kp F12          &none   &kp F7  &kp F8  &kp F9  &kp F10
   &kp LGUI   &kp LALT   &kp LCTRL  &kp LSHFT  &kp LA(LEFT)     &none   &kp F4  &kp F5  &kp F6  &kp F11
