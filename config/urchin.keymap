@@ -263,7 +263,7 @@
         Mac_FKeys {
             display-name = "Func";
             bindings = <
-  &kp LG(Q)  &kp LG(W)  &kp LS(TAB)  &swap      &kp F12          &none   &kp F7  &kp F8  &kp F9  &kp F10
+  &kp Q      &kp W      &kp LS(TAB)  &swap      &kp F12          &none   &kp F7  &kp F8  &kp F9  &kp F10
   &kp LGUI   &kp LALT   &kp LCTRL    &kp LSHFT  &kp LA(LEFT)     &none   &kp F4  &kp F5  &kp F6  &kp F11
   &kp LG(Z)  &kp LG(X)  &kp LG(C)    &kp LG(V)  &kp LA(RIGHT)    &none   &kp F1  &kp F2  &kp F3  &kp F12
                                      &lt 3 TAB  &trans           &trans  &trans
