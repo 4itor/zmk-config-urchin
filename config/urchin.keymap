@@ -33,7 +33,7 @@
             label = "SWAPPER";
             #binding-cells = <0>;
             bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
-
+            ignored-layers = <1>;
             ignored-key-positions = <1>;
         };
     };
