@@ -27,6 +27,14 @@
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
+
+        swap: swapper {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+            ignored-key-positions = <1>;
+        };
     };
 
     conditional_layers {

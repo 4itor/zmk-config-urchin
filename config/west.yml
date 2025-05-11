@@ -3,15 +3,18 @@ manifest:
     # zmk official
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-      # bravekarma
+    # bravekarma
     - name: caksoylar
       url-base: https://github.com/caksoylar
       # kyek / duckyb
     - name: duckyb
       url-base: https://github.com/duckyb
-      # nice-view-gem
-    - name: m165437
-      url-base: https://github.com/M165437
+    # nice-view-gem
+    # - name: m165437
+    #   url-base: https://github.com/M165437
+    # ZMK tri-state
+    - name: dhruvinsh
+      url-base: https://github.com/dhruvinsh
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -20,8 +23,11 @@ manifest:
     - name: urchin-zmk-module
       remote: duckyb
       revision: main
-    - name: nice-view-gem
-      remote: m165437
+    # - name: nice-view-gem
+    #   remote: m165437
+    #   revision: main
+    - name: zmk-tri-state
+      remote: dhruvinsh
       revision: main
   self:
     path: config
