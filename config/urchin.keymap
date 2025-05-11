@@ -33,6 +33,7 @@
             label = "SWAPPER";
             #binding-cells = <0>;
             bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+
             ignored-key-positions = <1>;
         };
     };
@@ -251,7 +252,7 @@
         FKeys {
             display-name = "Func";
             bindings = <
-  &kp LG(Q)  &kp LG(W)  &none      &none      &kp F12          &none   &kp F7  &kp F8  &kp F9  &kp F10
+  &kp LG(Q)  &kp LG(W)  &none      &swap      &kp F12          &none   &kp F7  &kp F8  &kp F9  &kp F10
   &kp LGUI   &kp LALT   &kp LCTRL  &kp LSHFT  &kp LA(LEFT)     &none   &kp F4  &kp F5  &kp F6  &kp F11
   &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LA(RIGHT)    &none   &kp F1  &kp F2  &kp F3  &kp F12
                                    &lt 2 TAB  &trans           &trans  &trans
