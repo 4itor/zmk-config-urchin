@@ -263,20 +263,20 @@
         FKeys {
             display-name = "Func";
             bindings = <
-  &kp LG(Q)  &kp LG(W)  &kp LS(TAB)  &swap      &tabswap    &none   &kp F7  &kp F8  &kp F9  &kp F10
-  &kp LGUI   &kp LALT   &kp LCTRL    &kp LSHFT  &none       &none   &kp F4  &kp F5  &kp F6  &kp F11
-  &kp LC(Z)  &kp LC(X)  &kp LC(C)    &kp LC(V)  &none       &none   &kp F1  &kp F2  &kp F3  &kp F12
-                                     &lt 2 TAB  &trans      &trans  &trans
+  &kp LG(Q)  &kp LG(W)  &kp LS(TAB)  &swap      &tabswap     &none   &kp F7  &kp F8  &kp F9  &kp F10
+  &kp LGUI   &kp LALT   &kp LCTRL    &kp LSHFT  &none        &none   &kp F4  &kp F5  &kp F6  &kp F11
+  &kp LC(Z)  &kp LC(X)  &kp LC(C)    &kp LC(V)  &kp LC(A)    &none   &kp F1  &kp F2  &kp F3  &kp F12
+                                     &lt 2 TAB  &trans       &trans  &trans
             >;
         };
 
         Mac_FKeys {
             display-name = "Func";
             bindings = <
-  &kp Q      &kp W      &kp LS(TAB)  &swap      &tabswap    &none   &kp F7  &kp F8  &kp F9  &kp F10
-  &kp LGUI   &kp LALT   &kp LCTRL    &kp LSHFT  &none       &none   &kp F4  &kp F5  &kp F6  &kp F11
-  &kp LG(Z)  &kp LG(X)  &kp LG(C)    &kp LG(V)  &none       &none   &kp F1  &kp F2  &kp F3  &kp F12
-                                     &lt 3 TAB  &trans      &trans  &trans
+  &kp Q      &kp W      &kp LS(TAB)  &swap      &tabswap     &none   &kp F7  &kp F8  &kp F9  &kp F10
+  &kp LGUI   &kp LALT   &kp LCTRL    &kp LSHFT  &none        &none   &kp F4  &kp F5  &kp F6  &kp F11
+  &kp LG(Z)  &kp LG(X)  &kp LG(C)    &kp LG(V)  &kp LG(A)    &none   &kp F1  &kp F2  &kp F3  &kp F12
+                                     &lt 3 TAB  &trans       &trans  &trans
             >;
         };
 
