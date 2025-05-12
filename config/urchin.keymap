@@ -37,7 +37,7 @@
             ignored-layers = <1>;
         };
 
-        tabswap: swapper {
+        tabswap: tswapper {
             compatible = "zmk,behavior-tri-state";
             label = "TSWAPPER";
             #binding-cells = <0>;
