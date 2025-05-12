@@ -44,7 +44,7 @@
             bindings = <&kt LCTRL>, <&kp TAB>, <&kt LCTRL>;
             ignored-key-positions = <12>;
             ignored-laters = <1>;
-        }
+        };
     };
 
     conditional_layers {
