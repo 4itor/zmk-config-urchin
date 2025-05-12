@@ -43,7 +43,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL>, <&kp TAB>, <&kt LCTRL>;
             ignored-key-positions = <12>;
-            ignored-laters = <1>;
+            ignored-layers = <1>;
         };
     };
 
