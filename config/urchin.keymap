@@ -256,7 +256,7 @@
   &kp RA(SEMI)     &kp RA(GRAVE)  &kp RA(SQT)  &kp RA(NUMBER_6)       &kp RS(RA(SQT))    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &none
   &kp LGUI         &kp LALT       &kp LCTRL    &kp LSHFT              &kp RA(N1)         &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none
   &kp RS(RA(SQT))  &kp RA(RS(C))  &kp RA(C)    &kp LA(LS(GRAVE))      &kp RA(SLASH)      &none     &none      &none      &none      &none
-                                               &kp LC(LA(LG(SPACE)))  &kp LC(DEL)        &trans    &trans
+                                               &kp LC(LA(LG(SPACE)))  &kp DEL            &trans    &trans
             >;
         };
 
