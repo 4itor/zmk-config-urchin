@@ -12,9 +12,6 @@ manifest:
     # nice-view-gem
     - name: m165437
       url-base: https://github.com/M165437
-    # ZMK tri-state
-    - name: dhruvinsh
-      url-base: https://github.com/dhruvinsh
   projects:
     - name: zmk
       remote: zmkfirmware
