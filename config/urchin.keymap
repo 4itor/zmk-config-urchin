@@ -188,12 +188,12 @@
 
         combo_win_switch {
             bindings = <&to 0>;
-            key-positions = <10 20>;
+            key-positions = <20 0>;
         };
 
         combo_mac_switch {
             bindings = <&to 1>;
-            key-positions = <19 29>;
+            key-positions = <29 9>;
         };
     };
 
