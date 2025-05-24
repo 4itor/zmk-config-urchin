@@ -107,16 +107,16 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
+        combo_esc_left {
             bindings = <&kp ESC>;
-            key-positions = <6 7>;
+            key-positions = <2 3>;
             timeout-ms = <30>;
             require-prior-idle-ms = <30>;
         };
 
-        combo_esc2 {
+        combo_esc_right {
             bindings = <&kp ESC>;
-            key-positions = <2 3>;
+            key-positions = <6 7>;
             timeout-ms = <30>;
             require-prior-idle-ms = <30>;
         };
