@@ -198,6 +198,18 @@
             bindings = <&to 1>;
             key-positions = <29 9>;
         };
+
+        combo_ble_clear_all {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <5 9>;
+            layers = <10>;
+        };
+
+        combo_ble_clear {
+            bindings = <&bt BT_CLR>;
+            key-positions = <5 6>;
+            layers = <10>;
+        };
     };
 
     keymap {
@@ -306,10 +318,10 @@
         Connectivity {
             display-name = "Connect";
             bindings = <
-  &bootloader  &none  &none  &none   &out OUT_TOG      &bt BT_CLR    &none         &none         &none         &bootloader
-  &none        &none  &none  &none   &none             &none         &none         &none         &none         &none
-  &none        &none  &none  &none   &studio_unlock    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-                             &trans  &trans            &none         &none
+  &bootloader     &none  &none  &none   &out OUT_USB    &out OUT_BLE  &none         &none         &none         &bootloader
+  &none           &none  &none  &none   &none           &none         &none         &none         &none         &none
+  &studio_unlock  &none  &none  &none   &none           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+                                &trans  &trans          &none         &none
             >;
         };
     };
