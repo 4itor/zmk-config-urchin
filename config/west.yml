@@ -12,6 +12,9 @@ manifest:
     # nice-view-gem
     - name: m165437
       url-base: https://github.com/M165437
+    # Nice-View-Battery
+    - name: infely
+      url-base: https://github.com/infely
     # ZMK tri-state
     - name: dhruvinsh
       url-base: https://github.com/dhruvinsh
@@ -28,6 +31,9 @@ manifest:
       revision: main
     - name: zmk-tri-state
       remote: dhruvinsh
+      revision: main
+    - name: nice-view-battery
+      remote: infely
       revision: main
   self:
     path: config
