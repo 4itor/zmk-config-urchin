@@ -134,9 +134,11 @@
         };
 
         combo_caps_word {
-            bindings = <&caps_word>;
+            bindings = <&kp X>;
             key-positions = <13 16 13>;
             layers = <0 1>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <40>;
         };
 
         combo_cut_win {
