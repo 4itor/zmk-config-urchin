@@ -134,8 +134,8 @@
         };
 
         combo_caps_word {
-            bindings = <&kp X>;
-            key-positions = <13 16 13>;
+            bindings = <&caps_word>;
+            key-positions = <13 16>;
             layers = <0 1>;
             timeout-ms = <40>;
             require-prior-idle-ms = <40>;
